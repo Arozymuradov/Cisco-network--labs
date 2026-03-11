@@ -10,5 +10,7 @@ show ip ospf neighbor; show ip route; ping
 Successful pings between PCs confirmed correct routing.
 
 Skills: OSPF routing, network design, IP addressing, troubleshooting
+
 Tools: Cisco Packet Tracer, Cisco IOS CLI.
+
 Atajan Rozymuradov – IT Cybersecurity
