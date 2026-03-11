@@ -6,7 +6,12 @@ The lab uses 4 routers, 4 switches, and 4 PCs connected in a square topology. Ea
 
 Static routes were configured on each router to allow communication between all LAN networks.
 
-Tools: Cisco Packet Tracer
-Technologies: Static Routing, IPv4 addressing
-
 Result: All PCs can successfully communicate across the network.
+
+Skills: Static routing, network design, IP addressing, troubleshooting
+
+Tools: Cisco Packet Tracer, Cisco IOS CLI.
+
+Atajan Rozymuradov – IT Cybersecurity
+
+
