@@ -4,7 +4,7 @@ This repository contains Cisco Packet Tracer and PuTTY networking labs and confi
 
 The goal of this repository is to document hands-on practice with Cisco networking technologies, including network design, routing, switching and troubleshooting.
 
-Skills: Static routing, OSPF, network design, IP addressing, troubleshooting and others.
+Skills: Static routing, OSPF, network design, IP addressing, VLSM Subnetting, VLANs, troubleshooting and others.
 
 Tools: Cisco Packet Tracer, PuTTY, Cisco IOS CLI.
 
