@@ -1,0 +1,82 @@
+CLI Configurations:
+
+
+
+SW1			
+#int range F0/1-4
+#switchport mode access
+#switchport access VLAN 10
+#vlan 10
+#name ADMINISTRATION	
+
+#int range F0/5-6
+#switchport mode access
+#switchport access VLAN 20
+#vlan 20
+#name OFFICE			
+			
+#vlan 30
+#name ENGINEERS
+
+#vlan 40
+#name HR
+
+#switchport trunk allowed vlan 10, 20, 30, 40
+
+#int g0/1
+#switchport mode trunk
+
+#write memory
+
+
+SW2
+#int range F0/1-2
+#switchport mode access
+#switchport access VLAN 30
+#vlan 30
+#name ENGINEERS	
+
+#int range F0/3
+#switchport mode access
+#switchport access VLAN 10
+#vlan 10
+#name ADMINISTRATION			
+			
+#vlan 20
+#name OFFICE
+
+#vlan 40
+#name HR
+
+#switchport trunk allowed vlan 10, 20, 30, 40
+
+#int range g0/1-2
+#switchport mode trunk
+
+#write memory
+
+SW3
+#int range F0/1-2
+#switchport mode access
+#switchport access VLAN 40
+#vlan 40
+#name HR	
+
+#int range F0/3
+#switchport mode access
+#switchport access VLAN 10
+#vlan 10
+#name ADMINISTRATION			
+			
+#vlan 20
+#name OFFICE
+
+#vlan 30
+#name ENGINEERS
+
+#switchport trunk allowed vlan 10, 20, 30, 40
+
+#int g0/1
+#switchport mode trunk
+
+#write memory

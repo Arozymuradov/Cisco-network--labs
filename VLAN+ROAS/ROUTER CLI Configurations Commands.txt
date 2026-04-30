@@ -1,0 +1,29 @@
+Router CLI Configurations Commands:
+
+
+R1
+#int g0/0/0
+#no shutdown
+
+#int g0/0/0.10
+#encapsulation dot1q 10
+#ip address 10.0.0.30 255.255.255.224
+
+#int g0/0/0.20
+#encapsulation dot1q 20
+#ip address 10.0.0.70 255.255.255.248
+
+#int g0/0/0.30
+#encapsulation dot1q 30
+#ip address 10.0.0.62 255.255.255.240
+
+#int g0/0/0.40
+#encapsulation dot1q 40
+#ip address 10.0.0.46 255.255.255.240
+
+#write memory
+
+
+
+
+
