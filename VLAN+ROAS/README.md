@@ -11,7 +11,7 @@ This address space was divided into smaller subnets using VLSM based on the numb
 ## VLAN and Subnet Design
 
 | VLAN | Department | Hosts Needed | Network Address | Subnet Mask | Usable IP Range | Broadcast |
-
+|---|---|---:|---|---|---|---|
 | VLAN 10 | ADMINISTRATORS | 20 | 10.0.0.0/27 | 255.255.255.224 | 10.0.0.1 - 10.0.0.30 | 10.0.0.31 |
 | VLAN 40 | HR | 12 | 10.0.0.32/28 | 255.255.255.240 | 10.0.0.33 - 10.0.0.46 | 10.0.0.47 |
 | VLAN 30 | ENGINEERS | 10 | 10.0.0.48/28 | 255.255.255.240 | 10.0.0.49 - 10.0.0.62 | 10.0.0.63 |
@@ -22,7 +22,7 @@ This address space was divided into smaller subnets using VLSM based on the numb
 The last usable IP address in each subnet was used as the default gateway.
 
 | VLAN | Gateway |
-
+|---|---|
 | VLAN 10 | 10.0.0.30 |
 | VLAN 20 | 10.0.0.70 |
 | VLAN 30 | 10.0.0.62 |
