@@ -2,7 +2,7 @@ OSPF Multi-Router Topology
 
 In this project, I demonstrate dynamic routing using OSPF in a multi-router network built in Cisco Packet Tracer.
 
-The topology includes 6 Cisco routers, 6 switches and multiple PCs. Each router connected to its own LAN (192.168.x.x/24) and to other routers using 10.10.x.x networks.
+The topology includes 6 Cisco routers, 6 switches and multiple PCs. Each router is connected to its own LAN (192.168.x.x/27) and to other routers using 10.0.0.x networks.
 
 Connectivity was verified using:
 show ip ospf neighbor; show ip route; ping
