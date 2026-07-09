@@ -31,3 +31,6 @@ The last usable IP address in each subnet was used as the default gateway.
 After configuring VLANs, trunks, router subinterfaces, and default gateways, PCs from different VLANs were tested using the ping command.
 
 Successful ping tests confirmed that inter-VLAN routing was working correctly through Router-on-a-Stick.
+
+## Author
+**Atajan Rozymuradov**
