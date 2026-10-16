@@ -82,6 +82,4 @@ Through this project, I practiced:
 ## Author
 
 **Atajan Rozymuradov**  
-Cybersecurity Student | Network Administration | Cisco Networking
-
-*This project was developed for educational purposes and hands-on Cisco networking practice.*
+Cybersecurity Specialist | Network Administration | Cisco Networking
