@@ -1,1 +1,1 @@
-
+Designed and implemented a multi-site enterprise network infrastructure using Cisco Packet Tracer, connecting headquarters with two remote offices. The project covers OSPF dynamic routing, VLAN segmentation, inter-VLAN routing, EtherChannel (LACP), WAN connectivity, server integration, and guest Wi-Fi security using extended ACLs to restrict unauthorized access to internal networks and router infrastructure.
